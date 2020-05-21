@@ -1,0 +1,26 @@
+{
+  "name": "xero-migration",
+  "version": "1.0.0",
+  "description": "migrate xero partner app from oauth1.0 to oauth2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitin7dc/xero-migration.git"
+  },
+  "author": "nitin sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitin7dc/xero-migration/issues"
+  },
+  "homepage": "https://github.com/nitin7dc/xero-migration#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "oauth-signature": "^1.5.0",
+    "request": "^2.88.2",
+    "uuid": "^8.1.0",
+    "xero-node": "^2.20.0"
+  }
+}
